@@ -1,9 +1,9 @@
-const rule = require("../../../lib/rules/to-local-required-params");
+const rule = require("../../../lib/rules/toLocale-required-params");
 const RuleTester = require("eslint").RuleTester;
 
 const ruleTester = new RuleTester();
 
-ruleTester.run("to-local-required-params", rule, {
+ruleTester.run("toLocale-required-params", rule, {
   valid: [
     {
       code: "'123456'.toLocaleString('zh-CN')",

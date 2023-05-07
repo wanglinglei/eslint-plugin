@@ -27,22 +27,15 @@ Add `fix-js` to the plugins section of your `.eslintrc` configuration file. You 
     ]
 }
 ```
-
-
-Then configure the rules you want to use under the rules section.
+Then configure the extend in extends
 
 ```json
 {
-    "rules": {
-        "fix-js/rule-name": 2
-    }
+    "extends":[
+        "plugin:fix-js/recommended"
+    ]
 }
 ```
 
-## Rules
-
-<!-- begin auto-generated rules list -->
-TODO: Run eslint-doc-generator to generate the rules list.
-<!-- end auto-generated rules list -->
 
 
