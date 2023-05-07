@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-fix-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "校验常见的js兼容性问题",
   "keywords": [
     "eslint",
